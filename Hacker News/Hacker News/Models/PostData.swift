@@ -13,9 +13,9 @@ struct Results: Decodable {
 
 struct Post: Decodable, Identifiable {
     var id: String {
-        return objectId
+        return objectID
     }
-    let objectId: String
+    let objectID: String
     let points: Int
     let title: String
     let url: String?
